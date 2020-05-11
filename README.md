@@ -1,6 +1,6 @@
 # Docker Template - PHP project
 
-## Version 1.0 - January 2020
+## Version 1.0.1 - May 2020
 
 *   This stack provide a development environment ready to run a PHP project.
 *   Prerequisite : to have Docker and Docker-Compose installed on your machine - [Docker Install](https://docs.docker.com/install/)
@@ -8,7 +8,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Realized thanks to Yann LUCAS [yann.lucas@outlook.com](mailto:yann.lucas@outlook.com) support.
+Realized thanks to Yann LUCAS [(see GitHub)](https://github.com/drixs6o9) support.
 
 Maintained and adapted by Adrien PIERRARD [adrien.pierrard@gmail.com](mailto:adrien.pierrard@gmail.com).
 
@@ -20,7 +20,7 @@ Maintained and adapted by Adrien PIERRARD [adrien.pierrard@gmail.com](mailto:adr
 *   PHP 7.2 fpm alpine version
 *   MySQL (PHP container allows SQLite if preferred) : ready to be used with MySQL 8
 *   PHPMyAdmin
-*   Blackfire - to allow you to analyze your website performance with blackfire companion (performance tests and graph analysis)
+*   Blackfire - to allow you to analyze your website performance with Blackfire companion (performance tests and graph analysis)
 
 Some containers have specifications to be mentioned :
 
@@ -28,15 +28,15 @@ Some containers have specifications to be mentioned :
 
     *   Composer
     *   Zsh / Ho-My-Zsh
-    *   PHP Probe for Blackfire => please refer to instruction below to know how to setup blackfire
+    *   PHP Probe for Blackfire => please refer to instruction below to know how to setup Blackfire
     *   A pre-setup php.ini will be copied during PHP container building
 
-*   Blackfire-agent and Blackfire CLI tools are already provided in the blackfire container (PHP Probe as mentioned above is setup with PHP)
+*   Blackfire-agent and Blackfire CLI tools are already provided in the Blackfire container (PHP Probe as mentioned above is setup with PHP)
 
     *   You need to create an account on [Blackfire](https://blackfire.io/) to obtain ID and TOKEN keys for client and server.
-    *   Then copy and rename the .env.dist file as .env file to put your personnal keys inside.
+    *   Then copy and rename the .env.dist file as .env file to put your personal keys inside.
     *   Don't forget to install Blackfire companion for Chrome or Firefox.
-    *   To know more about how to install blackfire (also localy in your machine for example), please refer to [Blackfire Installation](https://blackfire.io/docs/up-and-running/installation)
+    *   To know more about how to install Blackfire (also locally in your machine for example), please refer to [Blackfire Installation](https://blackfire.io/docs/up-and-running/installation)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,7 +51,8 @@ git clone https://github.com/WizBhoo/docker_php_project.git
 *   Go to the docker_php cloned folder with your terminal (you can rename it as you want)
 
 <blockquote>
-Note that Make command is available thanks to the Makefile provided.<br>
+Note that Make command is available thanks to the Makefile provided.
+
 To know which commands are available use "make help" in your terminal.
 </blockquote>
 
