@@ -1,8 +1,8 @@
 # Docker Template - PHP project
 
-## Version 1.0.1 - May 2020
+## Version 1.0.2 - May 2020
 
-*   This stack provide a development environment ready to run a PHP project.
+*   This stack provides a development environment ready to run a PHP project.
 *   Prerequisite : to have Docker and Docker-Compose installed on your machine - [Docker Install](https://docs.docker.com/install/)
 *   Preferred Operating System to use it : Linux / Mac OSx
 
@@ -10,7 +10,7 @@
 
 Realized thanks to Yann LUCAS [(see GitHub)](https://github.com/drixs6o9) support.
 
-Maintained and adapted by Adrien PIERRARD [adrien.pierrard@gmail.com](mailto:adrien.pierrard@gmail.com).
+Maintained and adapted by Adrien PIERRARD [(see GitHub)](https://github.com/WizBhoo).
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -74,4 +74,6 @@ To know which commands are available use "make help" in your terminal.
 
 Thanks in advance for Star contribution.
 
-Any question / trouble ? Please send me an e-mail ;-) - [adrien.pierrard@gmail.com](mailto:adrien.pierrard@gmail.com)
+Any question / trouble ?
+
+Please send me an [e-mail](mailto:apierrard.contact@gmail.com) ;-)
